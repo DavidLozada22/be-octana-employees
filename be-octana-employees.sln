@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctanaEmployeesBe.Services.Api", "be-octana-employees\OctanaEmployeesBe.Services.Api.csproj", "{32F8D312-ECE6-4DCA-B70D-E0F4A8E4BA48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OctanaEmployeesBe.Services.Api", "be-octana-employees\OctanaEmployeesBe.Services.Api.csproj", "{32F8D312-ECE6-4DCA-B70D-E0F4A8E4BA48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Services", "1. Services", "{DB49E952-F0F0-448A-8A30-3CB1B6ACE7D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{0008B0AE-7B63-4954-A977-D3611660D549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctanaEmployeesBe.Domain.Business", "OctanaEmployeesBe.Domain.Business\OctanaEmployeesBe.Domain.Business.csproj", "{104081BE-22B0-4349-9549-9876D4CECE29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OctanaEmployeesBe.Domain.Business", "OctanaEmployeesBe.Domain.Business\OctanaEmployeesBe.Domain.Business.csproj", "{104081BE-22B0-4349-9549-9876D4CECE29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctanaEmployeesBe.Domain.Entities", "OctanaEmployeesBe.Domain.Entities\OctanaEmployeesBe.Domain.Entities.csproj", "{448152DC-40A7-4D90-A7D7-2BF48297BBAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OctanaEmployeesBe.Domain.Entities", "OctanaEmployeesBe.Domain.Entities\OctanaEmployeesBe.Domain.Entities.csproj", "{448152DC-40A7-4D90-A7D7-2BF48297BBAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctanaEmployeesBe.Domain.Contracts", "OctanaEmployeesBe.Domain.Contracts\OctanaEmployeesBe.Domain.Contracts.csproj", "{156C3899-F3D6-41DC-ADE4-42F0646E345B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OctanaEmployeesBe.Domain.Contracts", "OctanaEmployeesBe.Domain.Contracts\OctanaEmployeesBe.Domain.Contracts.csproj", "{156C3899-F3D6-41DC-ADE4-42F0646E345B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Infrastructure", "{6628FAED-515B-4DD6-8D4D-5E41B9283120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctanaEmployeesBe.Infrastructure.DataAccess", "OctanaEmployeesBe.Infrastructure.DataAccess\OctanaEmployeesBe.Infrastructure.DataAccess.csproj", "{6D570898-D792-4494-8C55-7B45A7038AFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OctanaEmployeesBe.Infrastructure.DataAccess", "OctanaEmployeesBe.Infrastructure.DataAccess\OctanaEmployeesBe.Infrastructure.DataAccess.csproj", "{6D570898-D792-4494-8C55-7B45A7038AFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctanaEmployeesBe.Infrastructure.Contracts", "OctanaEmployeesBe.Infrastructure.Contracts\OctanaEmployeesBe.Infrastructure.Contracts.csproj", "{5C0FEA65-5371-40BF-AB66-A3548B388D91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OctanaEmployeesBe.Infrastructure.Contracts", "OctanaEmployeesBe.Infrastructure.Contracts\OctanaEmployeesBe.Infrastructure.Contracts.csproj", "{5C0FEA65-5371-40BF-AB66-A3548B388D91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{A0720799-9E63-4923-983E-6D5CBBC8D165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctanaEmployeesBe.Domain.BusinessTests", "OctanaEmployeesBe.Domain.BusinessTests\OctanaEmployeesBe.Domain.BusinessTests.csproj", "{B2CC4811-1D3E-435A-865B-F584C2971E93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{5C0FEA65-5371-40BF-AB66-A3548B388D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C0FEA65-5371-40BF-AB66-A3548B388D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C0FEA65-5371-40BF-AB66-A3548B388D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CC4811-1D3E-435A-865B-F584C2971E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CC4811-1D3E-435A-865B-F584C2971E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CC4811-1D3E-435A-865B-F584C2971E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CC4811-1D3E-435A-865B-F584C2971E93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
